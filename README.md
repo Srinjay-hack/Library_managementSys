@@ -1,6 +1,5 @@
 # Library_managementSys
---------------------------
-###########################
+--------------------------	
 # Library Management System
 --------------------------
 + A simple library management system for making the life of librarians and its user easy and cool.
