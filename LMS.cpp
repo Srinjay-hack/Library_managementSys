@@ -68,10 +68,10 @@ void library ::header()
 	str = ctime(&t);
 	cout << str;
 
-	cout << "\n\n\n\t\t********** SIR SAYYED AHMED KHAN LIBRARY **********" << endl;
-	cout << "\t\t\t      C-45 JLN MARG,JAIPUR" << endl;
-	cout << "\t\t\t     TELEPHONE :- 9950534422 " << endl;
-	cout << "\t\t\t       PIN CODE :- 302027" << endl
+	cout << "\n\n\n\t\t*************** CENTRAL LIBRARY **********" << endl;
+	cout << "\t\t\t      Kolkata West Bengal" << endl;
+	cout << "\t\t\t     TELEPHONE :- 1234567879 " << endl;
+	cout << "\t\t\t       PIN CODE :- 700001" << endl
 			 << endl;
 }
 
@@ -238,7 +238,7 @@ point:
 
 	flag--;
 
-	if (pass != 3020)
+	if (pass != 1234)
 	{
 		if (flag > 0 && flag <= 3)
 		{
@@ -711,13 +711,15 @@ sb:
 		ifstream inf;
 		inf.open("books.txt");
 
-		cout << "\t\t ISBN\ttital\t\tauthor\t\tedition\tquantity" << endl;
+		cout << "\t\t ISBN\t\t titel\t\t\tauthor\t\tedition\tquantity" << endl;
 
 		while (!inf.eof())
 		{
 			inf.getline(b, 50);
 			inf.getline(i, 50);
-			cout << "\n\t\t " << b << "\t" << i << endl;
+			cout << "\t\t-------------------------------------------------------------------" << endl;
+			cout << "\n\t\t |" << b << "| \t" << i <<"|"<< endl;
+			
 			book_count++;
 		}
 
